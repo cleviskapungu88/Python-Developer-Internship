@@ -1,0 +1,25 @@
+{
+  "source_folder": "./test_files",
+  "output_folder": "./organized",
+  "log_file": "./logs/organizer.log",
+  "report_folder": "./reports",
+
+  "email": {
+    "enabled": false,
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "sender": "your_email@gmail.com",
+    "password": "your_app_password",
+    "recipient": "recipient@gmail.com"
+  },
+
+  "categories": {
+    "Images":    [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".svg", ".webp", ".ico"],
+    "Documents": [".pdf", ".docx", ".doc", ".txt", ".xlsx", ".xls", ".pptx", ".csv", ".odt"],
+    "Videos":    [".mp4", ".avi", ".mov", ".mkv", ".wmv", ".flv", ".webm"],
+    "Audio":     [".mp3", ".wav", ".flac", ".aac", ".ogg", ".m4a", ".wma"],
+    "Archives":  [".zip", ".tar", ".gz", ".rar", ".7z", ".bz2"],
+    "Code":      [".py", ".js", ".ts", ".html", ".css", ".java", ".cpp", ".c", ".go", ".rb", ".php", ".json", ".xml", ".sh"],
+    "Others":    []
+  }
+}
